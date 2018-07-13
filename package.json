@@ -1,0 +1,21 @@
+{
+    "name": "first_terminal_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "Pholisa Fatyela",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Pholisa-Fatyela/bootcamp-terminal-tests.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Pholisa-Fatyela/bootcamp-terminal-tests/issues"
+    },
+    "devDependencies": {
+      "mocha": "^5.2.0"
+    }
+  }
