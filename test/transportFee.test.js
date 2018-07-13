@@ -1,3 +1,6 @@
+let assert = require("assert");
+let transportFee = require("../transportFee");
+
 describe('The transportFee function',function(){
 
   it('should return that your transportation cost is R20 if your shift starts in the morning',function(){

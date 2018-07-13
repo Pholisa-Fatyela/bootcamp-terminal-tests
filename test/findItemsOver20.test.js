@@ -1,3 +1,6 @@
+let assert = require("assert");
+let findItemsOver20 = require("../findItemsOver20");
+
 describe('The findItemsOver20 function',function(){
 
     it('should take in a list of objects and return how many items have quantities over 20',function(){

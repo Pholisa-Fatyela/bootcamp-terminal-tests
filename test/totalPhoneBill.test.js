@@ -1,3 +1,6 @@
+let assert = require("assert");
+let totalPhoneBill = require("../totalPhoneBill");
+
 describe('The totalPhoneBill function',function(){
     it('should take a projected string of your phone bill usage and return the total phone bill in this case R15.70',function(){
       assert.equal(totalPhoneBill('call, sms, call, call, call, call, sms, sms'),'R15.70');

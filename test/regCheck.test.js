@@ -1,3 +1,6 @@
+let assert = require("assert");
+let regCheck = require("../regCheck");
+
 describe('The regCheck function', function(){
 
     it('should check where the registration number ends with the location identifier', function(){

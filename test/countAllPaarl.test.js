@@ -1,3 +1,6 @@
+let assert = require("assert");
+let countAllPaarl = require("../countAllPaarl");
+
 describe('The countAllPaarl function',function(){
   
     it('should take in a string of registration numbers and return how many are from Paarl',function(){

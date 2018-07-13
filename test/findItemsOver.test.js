@@ -1,3 +1,6 @@
+let assert = require("assert");
+let findItemsOver = require("../findItemsOver");
+
 describe('The findItemsOver function',function(){
     it('should take in a list of objects and return how many items over the threshold',function(){
       assert.equal(findItemsOver([

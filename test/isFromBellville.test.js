@@ -1,3 +1,6 @@
+let assert = require("assert");
+let isFromBellville = require("../isFromBellville");
+
 describe('The isFromBellville function', function(){
 
     it('should return true if registration number is from Bellville', function(){
