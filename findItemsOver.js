@@ -1,4 +1,4 @@
-function findItemsOver(listOfObjects, threshold) {
+module.exports = function findItemsOver(listOfObjects, threshold) {
   var newQuantityObjectList = [];
   for (var i = 0; i < listOfObjects.length; i++) {
     var listItemQty = listOfObjects[i].qty;

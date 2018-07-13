@@ -1,4 +1,4 @@
-function countAllFromTown(string,startString){
+module.exports = function countAllFromTown(string,startString){
 	var newString = string.split(",");
   	var newerString = [];
   	for(var i = 0 ; i < newString.length ; i++){
